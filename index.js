@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
-    origin:'*',
+    origin:'https://job-hunt-9344dfu12-rajveer1505s-projects.vercel.app',
     credentials:true,
 }
 
